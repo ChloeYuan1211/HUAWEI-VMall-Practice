@@ -1,0 +1,258 @@
+/* Container width and centering */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer background color */
+.footer {
+    background-color: #F9F9F9;
+}
+
+/* Footer wrapper padding and overflow */
+.footer-w {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+/* Top footer wrapper styling */
+.footer-top-wrapper {
+    margin-top: 30px;
+    font-size: 0;
+    margin-right: -30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+/* Top footer list item styling */
+.footer-top-wrapper>li {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+
+/* Top footer link styles */
+.footer-top-wrapper>li>a>* {
+    vertical-align: middle;
+}
+
+.footer-top-wrapper>li>a>span {
+    font-size: 18px;
+    padding-left: 10px;
+    color: #333333;
+}
+
+.footer-top-wrapper>li>a>i {
+    font-size: 38px;
+    color: #CB242B;
+}
+
+/* Middle footer container flex styling */
+.footer-ctr-wrapper {
+    display: flex;
+    margin: 20px 0 30px 0;
+}
+
+/* Left side of middle footer */
+.footer-ctr-lft {
+    flex: 1;
+    border-right: 1px solid #E9E9E9;
+    display: flex;
+}
+
+/* Middle footer left side div styling */
+.footer-ctr-lft>div {
+    flex: 1;
+}
+
+.footer-ctr-lft>div>p {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.footer-ctr-lft>div>span {
+    display: block;
+    font-size: 13px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+/* Hover effect for middle footer left side span */
+.footer-ctr-lft>div>span:hover {
+    cursor: pointer;
+    color: #CB242B;
+}
+
+/* Right side of footer */
+.footer-rgt-wrapper {
+    position: relative;
+    width: 299px;
+    text-align: center;
+}
+
+/* Right footer header styling */
+.footer-rgt-wrapper>h4 {
+
+    font-weight: bold;
+    font-size: 24px;
+    color: #575757;
+    padding-bottom: 5px;
+}
+
+
+/* Right footer span styling */
+.footer-rgt-wrapper>span {
+    font-size: 14px;
+    color: #575757;
+}
+
+/* Customer service button styling */
+.footer .customer {
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #333333;
+    margin: 15px 80px 20px 80px;
+}
+
+/* Customer service button content styling */
+.footer .customer>* {
+    color: white;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+/* Customer service button icon styling */
+.footer .customer>i {
+    padding-left: 5px;
+}
+
+/* Footer icon text styling */
+.footer-icon>span {
+    color: #575757;
+    font-size: 15px;
+}
+
+/* Footer icon size and cursor */
+.footer-icon>i {
+    font-size: 22px;
+    padding: 0 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for footer icons */
+.footer-icon>i:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* WeChat popup hidden by default */
+.wechat-popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Display WeChat popup on hover */
+.icon-wechat:hover .wechat-popup {
+    display: block;
+}
+
+/* .footer .footeer-icon>span { 
+    color: #575757;
+    font-size: 15px;
+}
+
+.footer .footeer-icon>i {
+    font-size: 22px;
+    padding: 0 4px;
+}
+
+.footer .footeer-icon>i:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer .customer:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+/* Bottom footer wrapper styling */
+.footer-btm-wrapper {
+    border-top: 1px solid #E9E9E9;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Bottom left section of footer */
+.footer-btm-wrapper>.btm-lft {
+    width: 100px;
+    float: left;
+}
+
+/* Bottom left image styling */
+.footer-btm-wrapper>.btm-lft>img {
+    width: 100%;
+    font-size: 0;
+}
+
+
+/* Bottom center section of footer */
+.footer-btm-wrapper>.btn-ctr {
+    width: 65%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Bottom center links styling */
+.footer-btm-wrapper>.btn-ctr>a {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    color: #777777;
+}
+
+/* Bottom center link separator styling */
+.footer-btm-wrapper>.btn-ctr>a>span {
+    color: #D3D3D3;
+    display: inline-block;
+    padding-left: 3px;
+}
+
+/* Bottom right section of footer */
+.footer-btm-wrapper>.btn-btn {
+    display: inline-block;
+    width: 64%;
+    margin-left: 20px;
+}
+
+/* Bottom right content styling */
+.footer-btm-wrapper>.btn-btn>* {
+    font-size: 12px;
+    color: #A4A4A4;
+}
+
+/* Hover effect for bottom center and right links */
+.footer-btm-wrapper>.btn-ctr>a:hover,
+.footer-btm-wrapper>.btn-btn>a:hover {
+    color: #CB242B;
+}
+
+/* Bottom right section of footer */
+.footer-btm-wrapper>.btn-rgt {
+    float: right;
+    width: 10%;
+}
+
+/* Bottom right image styling */
+.footer-btm-wrapper>.btn-rgt>img {
+    width: 70%;
+    font-size: 0;
+}
